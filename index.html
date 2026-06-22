@@ -3,9 +3,279 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>erayakt</title>
+  <title>Eray Aktokluk — Computer Science Student & AI/CV Researcher</title>
+  <meta name="description" content="Eray Aktokluk — Computer Science student at Drexel University. AI, computer vision, and embedded systems researcher.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#top" class="logo">Eray <span>Aktokluk</span></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav">
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <div class="hero__col">
+          <p class="eyebrow">Computer Science @ Drexel University</p>
+          <h1 class="hero__name">Eray Aktokluk</h1>
+          <p class="hero__tagline">AI &amp; Computer Vision researcher building intelligent systems — from protein pathology classification to embedded robotics. Computer Science student at Drexel University, expected June 2027.</p>
+          <div class="hero__links">
+            <a href="mailto:ea656@drexel.edu" class="btn btn--primary">Email Me</a>
+            <a href="https://www.linkedin.com/in/erayakt/" class="btn btn--ghost" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/erayakt" class="btn btn--ghost" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.youtube.com/@ERAYAKTOKLUK" class="btn btn--ghost" target="_blank" rel="noopener">YouTube</a>
+          </div>
+          <a href="#experience" class="hero__scroll">Learn more about me &darr;</a>
+        </div>
+
+        <div class="hero__col">
+          <p class="video-embed__caption">Project Showcase (2013–2021)</p>
+          <div class="video-embed">
+            <iframe
+              src="https://www.youtube.com/embed/CIVOR-jNPUw"
+              title="Eray Aktokluk — project showcase"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section__title">Experience</h2>
+
+        <div class="experience-grid">
+          <!-- Experience card — duplicate this block to add another -->
+          <div class="card card--accent">
+            <h3 class="card__title">AI Researcher for TDP43 Protein in Dementia Research</h3>
+            <p class="card__meta">University of Pennsylvania · Philadelphia</p>
+            <span class="card__date">Apr 2025 – Sep 2025</span>
+          </div>
+
+          <div class="card card--accent">
+            <h3 class="card__title">Computer Vision Engineer Co-op</h3>
+            <p class="card__meta">Kulicke and Soffa · Philadelphia</p>
+            <span class="card__date">Apr 2024 – Sep 2024</span>
+          </div>
+
+          <div class="card card--accent">
+            <h3 class="card__title">STAR 2023 Scholar, and ML Researcher</h3>
+            <p class="card__meta">Combination Algorithm for Decision Making A.I · Philadelphia</p>
+            <span class="card__date">Jun 2023 – Aug 2023</span>
+          </div>
+
+          <div class="card card--accent">
+            <h3 class="card__title">Internship for Physics Simulation SDK Release</h3>
+            <p class="card__meta">RTDynamics · Germany</p>
+            <span class="card__date">Jun 2020 – Oct 2020</span>
+          </div>
+        </div>
+
+        <div class="education-banner">
+          <span class="education-banner__icon" aria-hidden="true">&#127891;</span>
+          <div class="education-banner__text">
+            <h3>Bachelor of Science: Computer Science</h3>
+            <p>Drexel University</p>
+          </div>
+          <span class="education-banner__date">Expected Jun 2027</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="awards">
+      <div class="container">
+        <h2 class="section__title">Awards &amp; Competitions</h2>
+
+        <div class="card-grid">
+          <!-- Award card — duplicate this block to add another -->
+          <div class="card">
+            <h3 class="card__title">AI‑Powered Frisbee Rescue Robot</h3>
+            <p class="card__meta">DevFest 2025 — Best Beginner Project Award</p>
+            <span class="card__date">2025</span>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Smart Headphone for People with Autism to Decrease Auditory Sensory Overload</h3>
+            <p class="card__meta">PennApps XXV — Best Overall, 1st Place</p>
+            <span class="card__date">2024</span>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">AI‑Powered Robot for Early ADHD Detection</h3>
+            <p class="card__meta">HopHacks Fall 2024 — General Overall, 2nd Place</p>
+            <span class="card__date">2024</span>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Computer Vision and LLM Powered Interface for People with Locked‑in Syndrome</h3>
+            <p class="card__meta">DragonHacks 2024 — Entertainment Track Winner</p>
+            <span class="card__date">2024</span>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Using Deep Learning to Create Better Plans for High School Students</h3>
+            <p class="card__meta">Mission Possible — Runner‑Up Prize</p>
+            <span class="card__date">2020</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="leadership">
+      <div class="container">
+        <h2 class="section__title">Leadership, Patents &amp; Teaching</h2>
+
+        <div class="leadership-columns">
+          <div class="leadership-col">
+            <h3 class="section__subtitle">Leadership</h3>
+            <div class="card-grid card-grid--single">
+              <div class="card">
+                <h3 class="card__title">Project Manager for Research Project</h3>
+                <p class="card__meta">Deep Ocean Exploration Robot</p>
+                <span class="card__date">Nov 2024 – May 2024</span>
+              </div>
+              <div class="card">
+                <h3 class="card__title">Director for a Short Movie</h3>
+                <p class="card__meta">SACLiveTV</p>
+                <span class="card__date">Jan 2020 – Jun 2021</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="leadership-col">
+            <h3 class="section__subtitle">Patents</h3>
+            <div class="card-grid card-grid--single">
+              <div class="card">
+                <h3 class="card__title">Wristband System for Navigating Visually Impaired People to Safety during Fire</h3>
+                <p class="card__meta">Turkey</p>
+                <span class="card__date">2018</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="section__subtitle">Teaching Experience</h3>
+        <div class="card-grid">
+          <div class="card">
+            <h3 class="card__title">Course Assistant for Computer Science</h3>
+            <p class="card__meta">College of Computing &amp; Informatics</p>
+            <span class="card__date">2023 – 2024</span>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Instructor and Organizer of a Workshop</h3>
+            <p class="card__meta">Introduction to Embedded Programming</p>
+            <span class="card__date">2020</span>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Main Instructor for an Udemy Course</h3>
+            <p class="card__meta">Artificial Intelligence 101 — 500 Students</p>
+            <span class="card__date">2019</span>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Speaker, Paragon Young Innovators</h3>
+            <p class="card__meta">"How did I learn programming at 8 years old?" — Boğaziçi University</p>
+            <span class="card__date">2018</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section__title">Technical Skills</h2>
+
+        <div class="skills-grid">
+          <!-- Skill group — duplicate this block to add another category -->
+          <div class="skill-group">
+            <h3 class="skill-group__title">Embedded Programming</h3>
+            <ul class="tag-list">
+              <li class="tag">Arduino</li>
+              <li class="tag">Raspberry Pi</li>
+              <li class="tag">ESP‑IDF</li>
+              <li class="tag">MPLAB</li>
+              <li class="tag">MikroC</li>
+              <li class="tag">Embedded C</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Backend Programming</h3>
+            <ul class="tag-list">
+              <li class="tag">PHP</li>
+              <li class="tag">Django</li>
+              <li class="tag">Node.js</li>
+              <li class="tag">MySQL</li>
+              <li class="tag">PostgreSQL</li>
+              <li class="tag">Firebase</li>
+              <li class="tag">Go</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Frontend Programming</h3>
+            <ul class="tag-list">
+              <li class="tag">Bootstrap 5</li>
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+              <li class="tag">React.js</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">Java</li>
+              <li class="tag">C#</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Machine Learning</h3>
+            <ul class="tag-list">
+              <li class="tag">Python</li>
+              <li class="tag">C++</li>
+              <li class="tag">TensorFlow</li>
+              <li class="tag">Keras</li>
+              <li class="tag">OpenCV</li>
+              <li class="tag">Scikit‑Learn</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container site-footer__inner">
+      <h2 class="section__title">Contact</h2>
+      <div class="site-footer__links">
+        <a href="mailto:ea656@drexel.edu">ea656@drexel.edu</a>
+        <a href="https://www.linkedin.com/in/erayakt/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/erayakt" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.youtube.com/@ERAYAKTOKLUK" target="_blank" rel="noopener">YouTube</a>
+      </div>
+      <p class="site-footer__copy">&copy; 2026 Eray Aktokluk</p>
+    </div>
+  </footer>
+
 </body>
 </html>
